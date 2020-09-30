@@ -51,7 +51,8 @@ Explanation 2:
 
 No water is trapped.
 */
-/*
+
+/*////////////solution approach///////////
 instead of calculating area by height*width, we can think it in a cumulative way.
 In other words, sum water amount of each bin(width=1). 
 Search from left to right and maintain a max height of
